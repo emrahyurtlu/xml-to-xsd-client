@@ -1,0 +1,13 @@
+#drag-container{
+    width: 90%;
+    margin: auto;
+    padding-top: 50px;
+}
+
+#drag-zone{
+    width: 100%;
+    height: 200px;
+    background-color: #dfdfdf;
+    border: 2px dashed #cccccc;
+    margin: auto;
+}

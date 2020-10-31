@@ -1,0 +1,9 @@
+<div id="drag-container">
+  <div class="center">
+    <ngx-file-drop dropZoneLabel="Drop files here" (onFileDrop)="dropped($event)">
+      <ng-template ngx-file-drop-content-tmp let-openFileSelector="openFileSelector">
+        Xml dosyanızı sürükleyip aşağıdaki kutuya bırakınız.
+      </ng-template>
+    </ngx-file-drop>
+  </div>
+</div>
